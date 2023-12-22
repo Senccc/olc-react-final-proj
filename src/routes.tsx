@@ -1,13 +1,13 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
+import First from './pages/FirstPage'
+import Main from './pages/MainPage'
 
 const AppRoutes: React.FC = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/" element={<First />} />
+      <Route path="/folders" element={<Main />} />
     </Routes>
   )
 }

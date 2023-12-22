@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'jit',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}", // Path to all your JS/TSX files
     // Add other paths here if you have HTML or other types of files where you use Tailwind classes

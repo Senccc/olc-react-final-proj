@@ -1,0 +1,30 @@
+/* TODO 
+Set up the on hover buttons + actually make them buttons with functions
+Make a form for the create new notes thingy
+Some of the elements do something on hover and some don't, gonna hafta fix that sometime soon
+Think of UI element to put to indicate that you can change the folder name bcuz the figma design don hav it for some reason
+Still haven't done any tests, get around to doing it sometime
+
+Implement the api mumbo jumbos (should be like:
+  - Make the form in FirstPage cause the directory post method to be ran
+  - Make the new notes form do the note post method thing and fill the title in the api using the string from the form
+  - Idk what I should do with the description form now that I found out that the API only store 2 things that aren't just ID stuff 
+    (Maybe I can do something with the body part in the API to like have the description and contents forms merge to like 
+    one string with like a format or something to be able to tell where the split between desc and conts happen??? maybe???)
+  - Make the Title form be filled with the title data from the API (can you even do that? I hope so)
+  - Same thing as the title one but with the contents and description form
+  - Have it so that pressing the save button triggers the put method
+  - After I make the UI and buttons for folder renaming, gonna hafta implement the put method from the API so that it actually does something
+  - Should probably just have it trigger a function call or something instead though (<<=== I didn't make that one, Intellisense did. 
+    I just put it there cus I didn't even know that it can do that and I think that's just hilarious that it tought of that)
+  - Delete... for everything... though tbh that seems to be the most simple one it just sucks that I can't really do that first since I need to actually
+    have *something to delete* in order to delete something (at least as far as I know of anyway)
+(Oh god I need to have all of these also do the get method... Yeah I ain't finishing this (at least not in time for the submission, 
+will definitely revisit tho, dis sum gud exp))
+(All of these also has to use and show their corresponding data as well so I'm mega screwed, but that's future me's problem)
+)
+
+
+
+
+*/
